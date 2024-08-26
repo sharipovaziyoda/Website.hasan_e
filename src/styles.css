@@ -1,0 +1,138 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2b4f;
+  color: white;
+  padding: 10px 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.home .hero-image {
+  width: 900px;
+  height: 600px;
+  margin-left: 330px;
+}
+.text {
+  text-align: center;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 4px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  left: 75px;
+  position: relative;
+  border-radius: 10%;
+}
+.product-card button {
+  border-style: none;
+  background-color: #fff;
+  color: green;
+}
+.product-card img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.product-card img :hover {
+  transform: scale(1.5);
+}
+
+.cart {
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.quantity-control button {
+  margin: 0 5px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 24px;
+  padding: 50px;
+  top: 0px;
+  position: relative;
+}
+
+.product-details {
+  display: flex;
+  padding: 20px;
+}
+
+.product-details img {
+  width: 50%;
+  border: 4px solid rgb(198, 12, 12);
+  border-radius: 10%;
+}
+.details {
+  padding-left: 20px;
+}
+.detal {
+  font-size: 40px;
+}
+.icon {
+  width: 50px;
+  height: 40px;
+}
+.icon1 {
+  width: 50px;
+  height: 40px;
+}
+.icon1 :hover {
+  color: red;
+}
+.savat {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+.details h1 {
+  color: rgb(198, 12, 12);
+}
+.details button {
+  background-color: rgb(198, 12, 12);
+  border-style: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5%;
+  color: #fff;
+  font-size: 15px;
+}
+.price {
+  font-size: 20px;
+}
+.delete {
+  width: 40px;
+  height: 30px;
+  color: red;
+}
